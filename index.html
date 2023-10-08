@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Arnimox | Home</title>
+    <link rel="icon" href="/images/hubicon.png" type="image/gif" />
+    <script src="https://unpkg.com/htmx.org@1.9.6" integrity="sha384-FhXw7b6AlE/jyjlZH5iHa/tTe9EpJ1Y55RjcgPbjeWMskSxZt1v9qkxLJWNJaGni" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./output.css" />
+    <div hx-ext="head-support" hx-get="/components/head.html" hx-trigger="load"></div>
+  </head>
+  <body id="body" class="bg-gray-950">
+    <div class="flex flex-col gap-20 w-[60%] mx-auto">
+      <div class="mt-20 -translate-x-44 w-min">
+        <p class="text-7xl font-bold whitespace-nowrap font-mono type-effect h-full overflow-hidden border-r-4 border-gray-50 leading-snug">Welcome to my page</p>
+      </div>
+      <div class="bg-gray-900 w-full rounded-3xl flex flex-col gap-16 justify-evenly p-10">
+        <h2 class="font-bold text-5xl mx-auto">Experience</h2>
+        <div class="flex justify-evenly [&>*]:rounded-xl [&>*>*]:rounded-xl [&>*>*]:h-24 gap-16 flex-wrap">
+          <div><img src="/images/csharp.png" alt="C# Logo" /></div>
+          <div><img src="/images/dart.png" alt="Dart Logo" /></div>
+          <div><img src="/images/html.png" alt="HTML Logo" /></div>
+          <div><img src="/images/css.png" alt="CSS Logo" /></div>
+          <div><img src="/images/javascript.png" alt="Javascript Logo" /></div>
+          <div><img src="/images/python.png" alt="Python Logo" /></div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

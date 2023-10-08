@@ -1,0 +1,51 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  *,
+  *::before,
+  *::after {
+    @apply box-border;
+  }
+
+  * {
+    @apply m-0 p-0 font-main text-gray-50;
+  }
+
+  body {
+    @apply min-h-screen;
+  }
+
+  img,
+  picture,
+  svg,
+  video {
+    @apply block max-w-full;
+  }
+}
+
+@layer components {
+  @keyframes type-effect {
+    from {
+      width: 0;
+    }
+    to {
+      width: 100%;
+    }
+  }
+
+  @keyframes type-effect-blink {
+    from,
+    to {
+      border-color: transparent;
+    }
+    50% {
+      border-color: rgb(249 250 251);
+    }
+  }
+
+  .type-effect {
+    animation: type-effect 2s steps(18, end), type-effect-blink 0.5s step-end infinite;
+  }
+}

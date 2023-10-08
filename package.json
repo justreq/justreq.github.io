@@ -1,0 +1,11 @@
+{
+  "scripts": {
+    "dev": "npx tailwindcss -i ./index.css -o ./output.css --watch"
+  },
+  "dependencies": {
+    "tailwindcss": "^3.3.3"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.16"
+  }
+}

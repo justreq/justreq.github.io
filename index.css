@@ -3,6 +3,10 @@
 @tailwind utilities;
 
 @layer base {
+  ::-webkit-scrollbar {
+    @apply hidden;
+  }
+
   *,
   *::before,
   *::after {
@@ -46,6 +50,6 @@
   }
 
   .type-effect {
-    animation: type-effect 2s steps(18, end), type-effect-blink 0.5s step-end infinite;
+    @apply animate-[type-effect_2s_steps(18,end),type-effect-blink_0.5s_step-end_infinite];
   }
 }

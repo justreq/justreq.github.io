@@ -4,7 +4,15 @@
 
 @layer base {
   ::-webkit-scrollbar {
-    @apply hidden;
+    @apply w-2;
+  }
+
+  ::-webkit-scrollbar-track {
+    @apply bg-gray-800 rounded-full;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    @apply bg-gray-700 hover:bg-gray-600 rounded-full;
   }
 
   *,

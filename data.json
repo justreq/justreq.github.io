@@ -2,7 +2,7 @@
   "experience": {
     "csharp": {
       "name": "C#",
-      "proficiency": 6,
+      "proficiency": 8,
       "startedUsing": "08-2019",
       "uses": ["General scripting", "Terraria mods via tModLoader"]
     },
@@ -20,19 +20,19 @@
     },
     "html": {
       "name": "HTML",
-      "proficiency": 9,
+      "proficiency": 10,
       "startedUsing": "08-2020",
       "uses": ["Websites", "Webapps via ElectronJS"]
     },
     "css": {
       "name": "CSS",
-      "proficiency": 9,
+      "proficiency": 10,
       "startedUsing": "08-2020",
       "uses": ["Websites", "Webapps via ElectronJS"]
     },
     "javascript": {
       "name": "Javascript",
-      "proficiency": 7,
+      "proficiency": 8,
       "startedUsing": "08-2020",
       "uses": ["General scripting", "Website interactivity", "Webapps via ElectronJS"]
     },
@@ -44,13 +44,13 @@
     },
     "markdown": {
       "name": "Markdown",
-      "proficiency": 7,
+      "proficiency": 10,
       "startedUsing": "11-2018",
       "uses": ["Project documentation"]
     },
     "github": {
       "name": "Github",
-      "proficiency": 7,
+      "proficiency": 9,
       "startedUsing": "07-2020",
       "uses": ["Project version control", "Peer project contributions"]
     }

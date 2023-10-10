@@ -7,30 +7,33 @@
     <link rel="icon" href="/images/hubicon.png" type="image/gif" />
     <script src="https://unpkg.com/htmx.org@1.9.6" integrity="sha384-FhXw7b6AlE/jyjlZH5iHa/tTe9EpJ1Y55RjcgPbjeWMskSxZt1v9qkxLJWNJaGni" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="./output.css" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <script src="https://kit.fontawesome.com/11b5924767.js" crossorigin="anonymous"></script>
     <div hx-ext="head-support" hx-get="/components/head.html" hx-trigger="load"></div>
   </head>
   <body id="body" class="bg-gray-950">
     <div class="flex flex-col gap-20 w-[55rem] mx-auto">
-      <div class="w-full h-[36rem] flex">
-        <div class="flex m-auto">
+      <div class="w-full h-screen flex">
+        <div class="flex m-auto flex-col gap-5">
           <div class="h-min w-min">
             <p class="text-5xl font-bold whitespace-nowrap font-mono type-effect h-full overflow-hidden border-r-4 border-gray-50 leading-snug">Welcome to my page</p>
           </div>
+          <div class="m-auto flex flex-col"><i class="fa-solid fa-chevron-down !fa-beat-fade h-14 down-bob-effect"></i></div>
         </div>
       </div>
       <div class="bg-gray-900 w-full rounded-3xl flex flex-col gap-10 justify-evenly p-10">
         <h2 class="font-bold text-4xl mx-auto">Experience</h2>
         <div class="flex [&>*]:w-1/2">
           <div id="home-experience-grid" class="flex justify-evenly [&>*]:rounded-md [&>*>*]:rounded-md [&>*>*]:h-16 gap-12 flex-wrap mr-5 [&>*]:transition-colors [&>*]:p-3">
-            <div><img src="/images/csharp.png" alt="csharp" /></div>
-            <div><img src="/images/dart.png" alt="dart" /></div>
-            <div><img src="/images/python.png" alt="python" /></div>
-            <div><img src="/images/html.png" alt="html" /></div>
-            <div><img src="/images/css.png" alt="css" /></div>
-            <div><img src="/images/javascript.png" alt="javascript" /></div>
-            <div><img src="/images/latex.png" alt="latex" /></div>
-            <div><img src="/images/markdown.png" alt="markdown" /></div>
-            <div><img src="/images/github.png" alt="github" /></div>
+            <div><img src="/images/csharp.png" alt="csharp" data-aos="fade-up" data-aos-offset="100" /></div>
+            <div><img src="/images/dart.png" alt="dart" data-aos="fade-up" data-aos-offset="100" data-aos-delay="50" /></div>
+            <div><img src="/images/python.png" alt="python" data-aos="fade-up" data-aos-offset="100" data-aos-delay="100" /></div>
+            <div><img src="/images/html.png" alt="html" data-aos="fade-up" data-aos-offset="100" /></div>
+            <div><img src="/images/css.png" alt="css" data-aos="fade-up" data-aos-offset="100" data-aos-delay="50" /></div>
+            <div><img src="/images/javascript.png" alt="javascript" data-aos="fade-up" data-aos-offset="100" data-aos-delay="100" /></div>
+            <div><img src="/images/latex.png" alt="latex" data-aos="fade-up" data-aos-offset="100" /></div>
+            <div><img src="/images/markdown.png" alt="markdown" data-aos="fade-up" data-aos-offset="100" data-aos-delay="50" /></div>
+            <div><img src="/images/github.png" alt="github" data-aos="fade-up" data-aos-offset="100" data-aos-delay="100" /></div>
           </div>
           <div class="ml-5 bg-gray-800 rounded-2xl flex flex-col gap-3 p-5">
             <p class="text-lg">Proficiency</p>
@@ -43,6 +46,7 @@
         </div>
       </div>
     </div>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="https://momentjs.com/downloads/moment.min.js"></script>
     <script src="/index.js"></script>
   </body>

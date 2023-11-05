@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Max Orin | About Me</title>
+    <link rel="icon" href="/images/hubicon.png" type="image/gif" />
+    <script src="https://unpkg.com/htmx.org@1.9.6" integrity="sha384-FhXw7b6AlE/jyjlZH5iHa/tTe9EpJ1Y55RjcgPbjeWMskSxZt1v9qkxLJWNJaGni" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="/output.css" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <script src="https://kit.fontawesome.com/11b5924767.js" crossorigin="anonymous"></script>
+    <div hx-ext="head-support" hx-get="/components/head.html" hx-trigger="load"></div>
+  </head>
+  <body id="body">
+    <div class="flex-grow flex">
+      <div class="w-[75rem] m-auto flex flex-col gap-14">
+        <h2 class="text-5xl font-bold whitespace-nowrap font-mono mx-auto">About Me</h2>
+        <div class="flex justify-between items-center gap-10 [&>*]:p-5 [&>*]:rounded-xl [&>*]:duration-200 [&>*]:backdrop-blur-md [&>*]:shadow-2xl">
+          <div class="flex gap-10 [&>ul]:font-bold [&>ul]:flex [&>ul>li]:whitespace-nowrap [&>ul]:flex-col [&>ul]:gap-5 hover:bg-gray-700/80 hover:scale-[101%] bg-gray-800/70">
+            <ul>
+              <li data-aos="fade-up">Full Name:</li>
+              <li data-aos="fade-up" data-aos-delay="50">Email:</li>
+              <li data-aos="fade-up" data-aos-delay="100">Occupation:</li>
+              <li data-aos="fade-up" data-aos-delay="150">Education:</li>
+              <li data-aos="fade-up" data-aos-delay="200">Based In:</li>
+            </ul>
+            <ul class="[&>li]:text-stone-400 select-text">
+              <li data-aos="fade-up">Max Orin</li>
+              <li data-aos="fade-up" data-aos-delay="50">max.orin05@yahoo.com</li>
+              <li data-aos="fade-up" data-aos-delay="100">Undergraduate Student</li>
+              <li data-aos="fade-up" data-aos-delay="150">Stevens Institute of Technology</li>
+              <li data-aos="fade-up" data-aos-delay="200">Brooklyn NY, Hoboken NJ</li>
+            </ul>
+          </div>
+          <div class="flex gap-5 flex-col select-text bg-gray-800/70 hover:bg-gray-700/80 hover:scale-[101%]">
+            <h3 class="text-3xl font-bold">Hello there 👋</h3>
+            <p class="text-lg">
+              My name is Max, and I'm a student at Stevens Institute of Technology. I'm studying for a bachelors degree in computer science.<br /><br />
+              I'm always working on my passion projects in my free time. Feel free to check some of them out!<br /><br />
+              You can connect with me via my email, or find me on any of the sites below.
+            </p>
+            <ul id="affiliate-links-list" class="flex gap-5 [&>li>div]:rounded-xl [&>li>div]:duration-200 [&>li>div]:shadow-[0_0_10px_3px_#00000080] [&>li>div]:border-[3px] [&>li>div]:h-12 [&>li>div]:w-12 [&>li>div]:flex [&_a]:flex [&_a]:w-full [&_a]:h-full [&_svg]:h-4/6 [&_svg]:m-auto">
+              <li data-aos="fade-left">
+                <div class="bg-[#833AB480] border-[#833AB4] hover:scale-105">
+                  <a href="https://www.instagram.com/max.o.2027/" target="_blank" rel="noopener" title="Instagram">
+                    <i class="fa-brands fa-instagram"></i>
+                  </a>
+                </div>
+              </li>
+              <li data-aos="fade-left" data-aos-delay="50">
+                <div class="bg-[#00000080] border-black hover:scale-105">
+                  <a href="https://github.com/justreq" target="_blank" rel="noopener" title="Github">
+                    <i class="fa-brands fa-github"></i>
+                  </a>
+                </div>
+              </li>
+              <li data-aos="fade-left" data-aos-delay="100">
+                <div class="bg-[#1DB95480] border-[#1DB954] hover:scale-105 ">
+                  <a href="https://open.spotify.com/user/g0lfyn59675wgm7bbybmn3r2y" target="_blank" rel="noopener" title="Spotify">
+                    <i class="fa-brands fa-spotify"></i>
+                  </a>
+                </div>
+              </li>
+              <li data-aos="fade-left" data-aos-delay="150">
+                <div class="bg-[#0066CC80] border-[#0066CC] hover:scale-105">
+                  <a href="https://steamcommunity.com/id/justreq/" target="_blank" rel="noopener" title="Steam">
+                    <i class="fa-brands fa-steam"></i>
+                  </a>
+                </div>
+              </li>
+              <li data-aos="fade-left" data-aos-delay="200">
+                <div class="bg-[#5865F280] border-[#5865F2] hover:scale-105">
+                  <a href="https://discordapp.com/users/509509052573810720" target="_blank" rel="noopener" title="Discord">
+                    <i class="fa-brands fa-discord"></i>
+                  </a>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

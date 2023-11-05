@@ -1,13 +1,18 @@
-<header class="flex justify-between h-24 py-5 px-20 select-none absolute w-full">
-  <a href="/" class="gap-5 flex flex-row">
-    <img src="/images/hubicon.png" alt="Website Favicon" class="rounded-2xl" draggable="false" />
-    <h1 class="m-auto font-bold text-2xl">Max Orin (Req)</h1>
-  </a>
-  <nav class="flex">
-    <ul class="flex flex-row gap-10 m-auto text-lg">
-      <li><a href="/">Home</a></li>
-      <li><a href="/">About Me</a></li>
-      <li><a href="/">Projects</a></li>
-    </ul>
-  </nav>
+<div id="particle-panel" class="w-screen h-screen fixed -z-[2]"></div>
+<div class="w-screen h-screen fixed backdrop-blur-md -z-[1]"></div>
+<header class="h-24 w-full flex flex-col">
+  <div class="flex justify-between h-20 pt-4 px-20">
+    <a href="/" class="gap-5 flex flex-row w-min">
+      <img src="/images/hubicon.png" alt="Website Favicon" class="rounded-2xl" draggable="false" />
+      <h1 class="m-auto font-bold text-2xl whitespace-nowrap">Max Orin (Req)</h1>
+    </a>
+    <nav class="flex">
+      <ul class="flex flex-row gap-10 m-auto text-lg">
+        <li class="underline-animation"><a href="/">Home</a></li>
+        <li class="underline-animation"><a href="/aboutme">About Me</a></li>
+        <li class="underline-animation"><a href="/projects">Projects</a></li>
+      </ul>
+    </nav>
+  </div>
+  <div class="bg-gradient-to-b from-black/20 to-transparent h-4 w-full relative top-4 backdrop-blur"></div>
 </header>

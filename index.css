@@ -22,11 +22,16 @@
   }
 
   * {
-    @apply m-0 p-0 font-main text-gray-50;
+    @apply m-0 p-0 font-main text-stone-50;
   }
 
   body {
-    @apply min-h-screen;
+    @apply min-h-screen bg-gradient-to-bl from-gray-950 to-cyan-950 relative flex flex-col select-none;
+  }
+
+  header,
+  footer {
+    @apply backdrop-blur-3xl bg-black/20;
   }
 
   img,
@@ -59,5 +64,9 @@
 
   .type-effect {
     @apply animate-[type-effect_2s_steps(18,end),type-effect-blink_0.5s_step-end_infinite];
+  }
+
+  .underline-animation {
+    @apply relative inline after:content-[''] after:absolute after:left-1/2 after:-bottom-0.5 after:w-0 after:h-0.5 after:bg-stone-50 after:transition-all after:duration-200 hover:after:w-full hover:after:left-0;
   }
 }

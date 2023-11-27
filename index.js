@@ -1,6 +1,6 @@
-particlesJS.load('particle-panel', '/particles.json', () => {
-    console.log('callback - particles-js config loaded');
-});
+// particlesJS.load('particle-panel', '/particles.json', () => {
+//     console.log('callback - particles-js config loaded');
+// });
 
 AOS.init();
 

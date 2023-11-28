@@ -52,20 +52,6 @@
     }
   }
 
-  @keyframes type-effect-blink {
-    from,
-    to {
-      border-color: transparent;
-    }
-    50% {
-      border-color: rgb(249 250 251);
-    }
-  }
-
-  .type-effect {
-    @apply animate-[type-effect_2s_steps(18,end),type-effect-blink_0.5s_step-end_infinite];
-  }
-
   .underline-animation {
     @apply relative inline after:content-[''] after:absolute after:left-1/2 after:-bottom-0.5 after:w-0 after:h-0.5 after:bg-stone-50 after:transition-all after:duration-200 hover:after:w-full hover:after:left-0;
   }

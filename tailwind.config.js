@@ -4,7 +4,7 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        main: "'Cascadia Code', sans-serif",
+        main: "'Ubuntu', sans-serif",
       },
     },
   },
